@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'AboutSection.dart';
+import 'EducationSection.dart';
 import 'HeaderSection.dart';
+import 'SkillsSection.dart';
 
 class ProfilePage extends StatelessWidget{
   const ProfilePage({super.key});
@@ -45,12 +47,12 @@ class ProfilePage extends StatelessWidget{
                     const Divider(height: 32),
 
                     // Skills Section
-                    // _buildSkillsSection(context),
+                    SkillsSection(context),
 
                     const Divider(height: 32),
 
                     // Education Section
-                    // _buildEducationSection(context),
+                    EducationSection(context),
 
                     const SizedBox(height: 16),
                   ],

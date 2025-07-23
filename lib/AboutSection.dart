@@ -18,7 +18,7 @@ class AboutSection extends StatelessWidget{
 
           // Professional summary (2-3 lines as required)
           Text(
-            'Passionate Flutter developer with 5+ years of experience building beautiful, performant mobile applications. Specialized in creating seamless user experiences and implementing complex UI designs.',
+            'Motivated and results-driven professional with a BSc in Agriculture (Specialized in Agricultural Engineering) and a Diploma in Software Engineering, now transitioning into a career as a Full-Stack Developer. Proficient in Java, Spring Boot, Angular, and React, with strong skills in both backend and frontend development. Brings a unique combination of field experience and technical expertise, with a strong analytical and problem-solving mindset developed through hands-on roles in Agri-tech companies. Skilled in developing scalable, user-centric web applications and contributing effectively to agile software development teams.',
             style: Theme.of(context).textTheme.bodyLarge,
             textAlign: TextAlign.justify,
           ),
@@ -50,7 +50,7 @@ class AboutSection extends StatelessWidget{
                         ),
                       ),
                       Text(
-                        'Senior Flutter Developer at TechCorp Inc.',
+                        'Intern Full Stack Developer at Simplify Pvt Ltd',
                         style: Theme.of(context).textTheme.bodyLarge,
                       ),
                     ],

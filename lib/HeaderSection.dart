@@ -12,12 +12,7 @@ class HeaderSection extends StatelessWidget{
           const CircleAvatar(
             radius: 60,
             backgroundColor: Color(0xFF3498DB),
-            backgroundImage: null,
-            child: Icon(
-              Icons.person,
-              size: 60,
-              color: Colors.white,
-            ),
+            backgroundImage: AssetImage('assets/images/1.jpg'),
           ),
           const SizedBox(height: 16),
           Text(
