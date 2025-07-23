@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'AboutSection.dart';
 import 'HeaderSection.dart';
 
 class ProfilePage extends StatelessWidget{
@@ -39,7 +40,7 @@ class ProfilePage extends StatelessWidget{
                     const Divider(height: 32),
 
                     // About Section
-                    // _buildAboutSection(context),
+                    AboutSection(context),
 
                     const Divider(height: 32),
 
